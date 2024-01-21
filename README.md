@@ -12,3 +12,17 @@ In the last ten minutes of the Nasdaq exchange trading session, market makers li
 Optiver merge traditional order book trading with price auction data. This ability to
 consolidate information from both sources is critical for providing the best prices to
 all market participants.
+
+A CLOSER LOOK AT THE TERMINOLOGIES:
+Auction
+Order book
+Auction order book
+Combined book
+
+Model Training:
+A simple baseline is to assume we have no valuable information about the direction
+any stock moves, which translates to a predicted value of 0 for all observations. This
+baseline is quite hard to beat in the context of financial markets
+
+Model Evaluation:
+Our evaluation metric is Mean Absolute Error (MAE).
